@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.drop-zone {
+    width: 200px;
+    height: 400px;
+    border: 2px dashed #999;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.draggable {
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: move;
+}
+
+#deleteZone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
